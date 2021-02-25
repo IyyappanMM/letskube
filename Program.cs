@@ -12,6 +12,7 @@ namespace LetsKube
 {
     public class Program
     {
+        int favNumber = 10;
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
